@@ -8,9 +8,9 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import {BrowserRouter} from 'react-router-dom'
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter basename='/covid19'><App /></BrowserRouter>
-  </React.StrictMode>,
+  
+    <BrowserRouter basename='/Covid19/'><App /></BrowserRouter>
+  ,
   document.getElementById('root')
 );
 
