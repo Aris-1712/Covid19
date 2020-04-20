@@ -9,7 +9,7 @@ import 'mdbreact/dist/css/mdb.css';
 import {BrowserRouter} from 'react-router-dom'
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter><App /></BrowserRouter>
+    <BrowserRouter basename='/covid19'><App /></BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
